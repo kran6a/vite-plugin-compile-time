@@ -20,8 +20,7 @@
     "build-fast": "tsup src/index.ts --format cjs,esm",
     "build": "pnpm run build-fast --dts-resolve",
     "test": "vitest run",
-    "prepublishOnly": "pnpm run build",
-    "postinstall": "pnpm run build"
+    "prepublishOnly": "pnpm run build"
   },
   "license": "MIT",
   "devDependencies": {
